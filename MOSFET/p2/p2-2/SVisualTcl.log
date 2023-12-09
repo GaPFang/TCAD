@@ -1,0 +1,56 @@
+###########################################
+# Sentaurus Visual R-2020.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec 08, 2023. 12:58:30.
+# Version: 31.2.6534263 (2.6534263)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ntuEDL.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-754.2.1.el6.x86_64.
+###########################################
+
+load_file /home/B11901003/MOSFET/p2-2/MOSFET_Vds0V_des.tdr
+create_plot -dataset MOSFET_Vds0V_des
+select_plots {Plot_MOSFET_Vds0V_des}
+#-> Plot_MOSFET_Vds0V_des
+#-> Plot_MOSFET_Vds0V_des
+#-> MOSFET_Vds0V_des
+create_cutline -plot Plot_MOSFET_Vds0V_des -type y -at 0.136545
+#-> C1(MOSFET_Vds0V_des)
+create_plot -dataset C1(MOSFET_Vds0V_des) -1d
+select_plots {Plot_C1(MOSFET_Vds0V_des)}
+#-> Plot_C1(MOSFET_Vds0V_des)
+#-> Plot_C1(MOSFET_Vds0V_des)
+set_axis_prop -plot Plot_C1(MOSFET_Vds0V_des) -axis y -type log
+#-> 0
+create_curve -axisX X -axisY DopingConcentration -dataset {C1(MOSFET_Vds0V_des)} -plot Plot_C1(MOSFET_Vds0V_des)
+#-> Curve_1
+create_cutline -plot Plot_MOSFET_Vds0p5V_des -type y -at 0.0005
+#!-> Error: create_cutline: reference resolving failed [plot]. Got 'Plot_MOSFET_Vds0p5V_des'.
+create_cutline -plot Plot_MOSFET_Vds0V_des -type y -at 0.0005
+#-> C2(MOSFET_Vds0V_des)
+set_band_diagram {Plot_C1(MOSFET_Vds0V_des)}
+#-> 0
+remove_curves -plot Plot_C1(MOSFET_Vds0V_des) {Ec_2 Ev_2 hfn_2 hfp_2}
+#-> Ec_2 Ev_2 hfn_2 hfp_2
+remove_curves -plot Plot_C1(MOSFET_Vds0V_des) {Ec Ev hfn hfp}
+#-> Ec Ev hfn hfp
+create_curve -axisX X -axisY ConductionBandEnergy -dataset {C2(MOSFET_Vds0V_des)} -plot Plot_C1(MOSFET_Vds0V_des)
+#-> Curve_1
+create_curve -axisX X -axisY ValenceBandEnergy -dataset {C2(MOSFET_Vds0V_des)} -plot Plot_C1(MOSFET_Vds0V_des)
+#-> Curve_2
+create_curve -axisX X -axisY eQuasiFermiPotential -dataset {C2(MOSFET_Vds0V_des)} -plot Plot_C1(MOSFET_Vds0V_des)
+#-> Curve_3
+create_curve -axisX X -axisY hQuasiFermiPotential -dataset {C2(MOSFET_Vds0V_des)} -plot Plot_C1(MOSFET_Vds0V_des)
+#-> Curve_4
+set_legend_prop -plot Plot_C1(MOSFET_Vds0V_des) -position {0.0930521 0.773834}
+#-> 0
+select_plots {Plot_MOSFET_Vds0V_des}
+#-> Plot_MOSFET_Vds0V_des
+set_cutline_prop C2 -plot Plot_MOSFET_Vds0V_des -pos1 {-0.5 0.0005 0} -pos2 {0.5 0.0005 0}
+select_plots {Plot_C1(MOSFET_Vds0V_des)}
+#-> Plot_C1(MOSFET_Vds0V_des)
+save_plot_to_script /home/B11901003/MOSFET/p2-2/band_diagram -plot Plot_C1(MOSFET_Vds0V_des) -overwrite
+#-> 0

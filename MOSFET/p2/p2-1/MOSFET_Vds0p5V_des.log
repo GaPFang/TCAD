@@ -1,0 +1,1748 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version R-2020.09                           ***
+***                      (2.6534263, x86_64, Linux)                      ***
+***                                                                      ***
+***                       Copyright (C) 1994-2020                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: ntuEDL
+	Operating System: Linux rel. 2.6.32-754.2.1.el6.x86_64 ver. #1 SMP Fri Jul 13 12:50:12 UTC 2018
+	Machine Type: x86_64
+	Process ID: 47518
+	Number of processors: 24
+	Domain Name: (none)
+	Date: Wed Dec  6 10:24:51 2023  (CST)
+
+Wed Dec  6 10:24:51 2023: checked out 1 sdevice license(s)
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm/MOS_harness.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm/satinductor.ccf
+Parsing circuit file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm/ferroelectric.ccf
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm/ferroelectric.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm/satinductor.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm/MOS_harness.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource2.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_pGC.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_sRL.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/bs_psource.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_SRL1.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource2.so.linux64
+Loading shared object file /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource.so.linux64
+
+Input source: MOSFET.cmd
+
+===============================
+
+Output file: MOSFET_Vds0p5V_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice-31.2.6534263 /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice
+
+CMIPath file: /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/sdevice /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/linux64/lib/scm
+
+SPICEPath file: /usr/cad/synopsys/tcad/cur/sentaurus/cur/bin/../tcad/current/lib/sdevice-31.2.6534263/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    eqPoisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    electron quasi-fermi-potential : 1.0000e-03
+    hole quasi-fermi-potential : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    FEPolarization : 1.0000e-05
+    FEPolarizationX : 1.0000e-05
+    FEPolarizationY : 1.0000e-05
+    FEPolarizationZ : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    TrapPDE : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+    Landau-Lifshitz-Gilbert[theta] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[phi] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[x] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[y] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[z] : 1.0000e-03
+    Mechanics : 1.0000e-03
+    ExternalTransportSolver : 1.0000e-03
+    ReactionDiffusionPDE : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    eqPoisson : 1
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    electron quasi-fermi-potential : 0.025852
+    hole quasi-fermi-potential : 0.025852
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    FEPolarization : 0.025852
+    FEPolarizationX : 0.025852
+    FEPolarizationY : 0.025852
+    FEPolarizationZ : 0.025852
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    TrapPDE : 1.0000e-05
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+    Landau-Lifshitz-Gilbert[theta] : 1
+    Landau-Lifshitz-Gilbert[phi] : 1
+    Landau-Lifshitz-Gilbert[x] : 1
+    Landau-Lifshitz-Gilbert[y] : 1
+    Landau-Lifshitz-Gilbert[z] : 1
+    Mechanics : 1
+    ExternalTransportSolver : 1
+    ReactionDiffusionPDE : 1
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 50
+  LineSearchDamping=1
+  #undamped iterations : 1000
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Use 64 bit (double) normal precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| (transient): 1.0000e+15
+  Maximum |rhs| (non-transient): 1.0000e+100
+  Maximum |rhs| factor : 1.0000e+10
+  Maximum |rhs| factor1 : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "Source" : 0.0000e+00 V (Ohmic), area factor : 1
+    "Drain" : 3 V (Ohmic), area factor : 1
+    "Gate" : 0.0000e+00 V (Ohmic), area factor : 1
+    "Body" : 0.0000e+00 V (Ohmic), area factor : 1
+  RayTrace Boundaries:
+  Files:
+    no Boundary file
+    Grid file: MOSFET_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    MIMCurrent file: MOSFET_mimcur_des.plt
+    no MIMBand file
+    MIMSensitivity file: MOSFET_mimsa_des.tdr
+    no Load file
+    no Save file
+    Plot file: MOSFET_Vds0p5V_des.tdr
+    no DevFieldsName file
+    AutoNewtonPlot file: MOSFET_Vds0p5V_des_%ld_des.tdr
+    no Path file
+    no Lifetime file
+    no Temperature file
+    Current file: MOSFET_Vds0p5V_des.plt
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    ParameterPath directories: 
+    no Piezo file
+    no mcDOS file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no IlluminationSpectrum file
+    no SpectralPlot file
+    no OpticalSolverInput file
+    no OpticalGenerationInput file
+    no OpticalGenerationOutuput file
+    no OptGenTransientScaling file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    With usage of best vertex in element (maximum element-vertex volume angle) for impact ionization models
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    Without Piezo
+    Without Anisotropic Material Properties
+    Without Avalanche-Generation 
+    Without Alpha Particle
+    Without Heavy Ion
+    Without polarization
+    Volume charge density: 0.0000e+00 cm^-3
+    Device Temperature = 3.0000e+02 K
+    Electron Quasi Fermi Potential: 0.0000e+00 V
+    Hole Quasi Fermi Potential: 0.0000e+00 V
+    Without MagneticField
+    With SingletExciton Barrier Type
+    Intrinsic density models:
+      default bandgap model
+      Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+    default affinity model
+    default effective mass model
+    Electron mobility:
+      Doping dependence:
+        Default
+      no Carrier-Carrier scattering
+      no bulk trap Coulomb scattering 
+      E_normal dependence:
+        Lombardi
+      Without ThinLayer mobility model
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+      Einstein relation for diffusivity-mobility ratio.
+    Hole mobility:
+      Doping dependence:
+        Default
+      no Carrier-Carrier scattering
+      no bulk trap Coulomb scattering 
+      E_normal dependence:
+        Lombardi
+      Without ThinLayer mobility model
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+      Einstein relation for diffusivity-mobility ratio.
+    Energy relaxation time model: according to formula in parameter file
+    Schottky resistance model: default bult-in model
+    Lattice thermal conductivity model: according to formula in parameter file
+    Metal Resistivity model: according to formula in parameter file
+    Thermo Electric Power model: extraploted Si data
+    Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+    Lattice heat capacity model: temperature dependent
+    no piezoelectric polarization model
+    Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+  Process information for extraction purposes:
+    none
+  Plot variables:
+    eDensity
+    hDensity
+    eCurrentDensity
+    hCurrentDensity
+    ElectrostaticPotential
+    SpaceCharge
+    ElectricField
+    eMobility
+    hMobility
+    eVelocity
+    hVelocity
+    DopingConcentration
+    DonorConcentration
+    AcceptorConcentration
+    ConductionBandEnergy
+    ValenceBandEnergy
+
+------------------------------------------------
+  NoisePlot variables:
+    none
+  Plot groups:
+    none
+
+------------------------------------------------
+  CurrentPlot variables:
+    none
+Devices:
+Systems:
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+    )
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 5.0000e-10, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact Gate : -5.0000e-01V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 5.0000e-10, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact Gate : 3V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'MOSFET_msh.tdr' ... 
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 11476.
+done.
+
+Adding interfaces and contacts .... done.
+
+Computing edges ...
+  Number of edges: 34405
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  Boxmethod Parallel Computing: nbThreads = 1 
+
+  Computing Delaunay coefficients ...   done.
+  Delaunay coefficients time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+  Parallel Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:  tcpu = 0.0000e+00 s
+      New Parameters time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+Info for all regions (NumberOfRegions = 2):
+        ElementWithMinVolume(     4) Vertex0(  179)(-4.990234e+00,-2.148437e-04) Volume = 1.049042e-06 um3 (1.05e-08 from TotalVolume)
+          ElementWithMinEdge(     4) Vertex0(  179)(-4.990234e+00,-2.148437e-04) Length = 2.148437e-04 um
+              MaxFlatElement( 21625) Vertex0(11359)( 5.625000e+00, 1.242500e+00)  Angle = 6.338913e+01 degrees
+         ElementWithMinAngle(  6130) Vertex0(  182)( 4.980469e+00,-0.000000e+00)  Angle = 1.260304e+00 degrees
+   ElementWithMaxQualityEdge(     9) Vertex0(  182)(-4.980469e+00,-2.148437e-04)    R/L = 2.273277e+01 
+ ElementWithMaxQualityHeight(     9) Vertex0(  182)(-4.980469e+00,-2.148437e-04)    R/H = 2.273827e+01 
+
+Info for semiconductor regions (NumberOfRegions = 1):
+        ElementWithMinVolume(  6458) Vertex0(  183)(-4.990234e+00,-0.000000e+00) Volume = 2.284050e-05 um3 (2.28e-07 from TotalVolume)
+          ElementWithMinEdge(  6458) Vertex0(  183)(-4.990234e+00,-0.000000e+00) Length = 4.677734e-03 um
+              MaxFlatElement( 21625) Vertex0(11359)( 5.625000e+00, 1.242500e+00)  Angle = 6.338913e+01 degrees
+         ElementWithMinAngle( 21533) Vertex0(   98)( 5.312500e+00,-0.000000e+00)  Angle = 3.504988e+00 degrees
+   ElementWithMaxQualityEdge(  6307) Vertex0(   98)(-5.156250e+00, 9.570313e-03)    R/L = 8.178563e+00 
+ ElementWithMaxQualityHeight(  6307) Vertex0(   98)(-5.156250e+00, 9.570313e-03)    R/H = 8.193890e+00 
+
+   NumberOfEdges              =  34405 
+   NumberOfGeometricalEdges   =  33305 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfEdgesPerVertex  =      8; vertex(53) = (-7.500000e+00,  1.868750e+00) [um]
+   MaxNumberOfElementsPerEdge =      2; edge(0) = (176, 182) 
+                                        vertex(176) = (-4.990234e+00, -5.107422e-03) [um]
+                                        vertex(182) = (-4.980469e+00, -2.148437e-04) [um]
+
+                        NumberOfVertices =  12576 
+                        NumberOfElements =  21830 
+                       NumberOfTriangles =  21830  (100.00 %)
+                      NumberOfRectangles =      0  ( 0.00 %)
+                  NumberOfObtuseElements =      0  ( 0.00 %)
+
+  VertexWithMaxMeasure( 5698)(-7.500000e+00, 3.747500e+00)
+  MaxVertMeasure(3.914063e-01)/VertVolume(1.957031e-01) = 2.00e+00
+
+
+/-------- Region non-Delaunay elements -------------------------------------------------------------------
+ Region        Volume      BoxMethodVolume  DeltaVolume  Elements  non-Delaunay      non-DelaunayVolume 
+  name          [um2]          [um2]           [%]                   Elements              [um2]   [%]   
+ ---------------------------------------------------------------------------------------------------------
+ Oxide      1.0000000e-01  1.0000000e-01     1.4e-11      6142       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ Substrate  1.0000000e+02  1.0000000e+02     1.7e-11     15688       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ .........................................................................................................
+ Total      1.0010000e+02  1.0010000e+02     1.7e-11     21830       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+\---------------------------------------------------------------------------------------------------------
+    done.
+  done.
+  (times: wallclock = 0.04 s, tcpu = 0.05 s)
+done.
+Reading doping 'MOSFET_msh.tdr' (TDR format) ...
+done.
+done.
+
+
+=======
+Region: "Oxide"
+  (material is "Oxide")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Substrate"
+  (material is "Silicon")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Oxide/Substrate"
+  (material interface is "Oxide/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Body"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Drain"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Gate"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Source"
+==========
+  Constants are not modified and equal to default ones
+
+
+No individual doping species found in doping file!
+Recognized doping species are:
+    acceptors:
+        BoronConcentration
+        AluminumConcentration
+        IndiumConcentration
+        PDopantConcentration
+        BoronActiveConcentration
+        AluminumActiveConcentration
+        IndiumActiveConcentration
+        PDopantActiveConcentration
+        BerylliumConcentration
+        BerylliumActiveConcentration
+        pCarbonConcentration
+        pCarbonActiveConcentration
+        pGermaniumConcentration
+        pGermaniumActiveConcentration
+        pMagnesiumConcentration
+        pMagnesiumActiveConcentration
+        pSiliconConcentration
+        pSiliconActiveConcentration
+        pTinConcentration
+        pTinActiveConcentration
+        ZincConcentration
+        ZincActiveConcentration
+    donors:
+        ArsenicConcentration
+        PhosphorusConcentration
+        AntimonyConcentration
+        NitrogenConcentration
+        NDopantConcentration
+        ArsenicActiveConcentration
+        PhosphorusActiveConcentration
+        AntimonyActiveConcentration
+        NitrogenActiveConcentration
+        NDopantActiveConcentration
+        nCarbonConcentration
+        nCarbonActiveConcentration
+        nGermaniumConcentration
+        nGermaniumActiveConcentration
+        nSiliconConcentration
+        nSiliconActiveConcentration
+        nTinConcentration
+        nTinActiveConcentration
+        SeleniumConcentration
+        SeleniumActiveConcentration
+        SulfurConcentration
+        SulfurActiveConcentration
+        TelluriumConcentration
+        TelluriumActiveConcentration
+
+Acceptor and donor concentrations (AcceptorConcentration, DonorConcentration):
+    computed based on net doping
+Net doping concentration (DopingConcentration):
+    obtained from doping file
+Total doping concentration (TotalConcentration):
+    not found in doping file
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.10821
+    The Electron DOS: 2.8583e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.62578
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.15e+03                                                      0.01
+    1      1.41e+02   1.00e+00   2.87e+01   3.03e+05    0         1      0.03
+    2      7.15e+01   1.00e+00   2.74e+00   3.43e+04    0         1      0.06
+    3      2.49e+01   1.00e+00   1.02e+00   1.98e+04    0         1      0.08
+    4      4.81e+00   1.00e+00   4.83e-01   1.53e+04    0         1      0.10
+    5      5.44e-01   1.00e+00   6.55e-02   1.42e+03    0         1      0.13
+    6      1.58e-02   1.00e+00   4.66e-03   7.62e+01    0         1      0.15
+    7      1.72e-05   1.00e+00   1.06e-04   1.65e+00    0         1      0.18
+    8      6.97e-09   1.00e+00   8.54e-08   1.35e-03    0         1      0.20
+Finished, because...
+Error smaller than 1 ( 1.3533E-03 ).
+
+Accumulated times:
+Assembly time:        0.10 s
+Solve time:      0.09 s
+Total time:      0.20 s
+
+contact        voltage     electron current    hole current  conduction current
+ Body         0.000E+00       5.446E-08        -7.655E-21        5.446E-08
+ Drain        3.000E+00       2.608E-32         7.655E-21        7.655E-21
+ Gate         0.000E+00       0.000E+00         0.000E+00        0.000E+00
+ Source       0.000E+00      -5.446E-08         2.751E-31       -5.446E-08
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+    )
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.18e+04                                                      0.28
+    1      6.10e+13   1.00e+00   3.34e+03   5.70e+08    0         1      0.89
+    2      3.01e+13   1.00e+00   6.61e+03   1.20e+16    0         1      1.51
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        1.09 s
+Solve time:      0.44 s
+Total time:      1.55 s
+
+contact        voltage     electron current    hole current  conduction current
+ Body         0.000E+00       3.191E+00         7.026E-01        3.894E+00
+ Drain        3.000E+00      -1.123E-14         5.572E-20       -1.123E-14
+ Gate         0.000E+00       0.000E+00         0.000E+00        0.000E+00
+ Source       0.000E+00      -3.191E+00        -7.026E-01       -3.894E+00
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 5.0000e-10, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact Gate : -5.0000e-01V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=0.01 (Stepsize: 0.01) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.94e+15   1.00e+00   3.68e+04   9.45e+14    0         1      1.01
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.23 s
+Total time:      1.05 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=5.0000e-03 (Stepsize: 5.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.62e+15   1.00e+00   4.73e+04   1.02e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.5000e-03 (Stepsize: 2.5000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.58e+15   1.00e+00   4.67e+04   1.02e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.2500e-03 (Stepsize: 1.2500e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.65e+15   1.00e+00   4.79e+04   1.03e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=6.2500e-04 (Stepsize: 6.2500e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.64e+15   1.00e+00   4.76e+04   1.02e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.1250e-04 (Stepsize: 3.1250e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.74e+15   1.00e+00   4.92e+04   1.04e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.5625e-04 (Stepsize: 1.5625e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.23e+15   1.00e+00   4.13e+04   9.79e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=7.8125e-05 (Stepsize: 7.8125e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.84e+15   1.00e+00   5.08e+04   1.05e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.9063e-05 (Stepsize: 3.9063e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.20e+15   1.00e+00   4.08e+04   9.76e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.9531e-05 (Stepsize: 1.9531e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.90e+15   1.00e+00   5.18e+04   1.05e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=9.7656e-06 (Stepsize: 9.7656e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.50e+15   1.00e+00   4.55e+04   1.01e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=4.8828e-06 (Stepsize: 4.8828e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.80e+15   1.00e+00   5.02e+04   1.04e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.4414e-06 (Stepsize: 2.4414e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.37e+15   1.00e+00   4.34e+04   9.94e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.2207e-06 (Stepsize: 1.2207e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      4.10e+15   1.00e+00   5.50e+04   1.08e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=6.1035e-07 (Stepsize: 6.1035e-07) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.42e+15   1.00e+00   4.42e+04   1.00e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.0518e-07 (Stepsize: 3.0518e-07) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.75e+15   1.00e+00   4.94e+04   1.04e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.5259e-07 (Stepsize: 1.5259e-07) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.93e+15   1.00e+00   5.23e+04   1.06e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=7.6294e-08 (Stepsize: 7.6294e-08) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.40e+15   1.00e+00   4.39e+04   9.98e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.8147e-08 (Stepsize: 3.8147e-08) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.28e+15   1.00e+00   4.20e+04   9.85e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.9073e-08 (Stepsize: 1.9073e-08) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.56e+15   1.00e+00   4.65e+04   1.02e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=9.5367e-09 (Stepsize: 9.5367e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.76e+15   1.00e+00   4.96e+04   1.04e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=4.7684e-09 (Stepsize: 4.7684e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.51e+15   1.00e+00   4.55e+04   1.01e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.3842e-09 (Stepsize: 2.3842e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.83e+15   1.00e+00   5.07e+04   1.05e+15    0         1      1.00
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.1921e-09 (Stepsize: 1.1921e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.52e+15   1.00e+00   4.58e+04   1.01e+15    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=5.9605e-10 (Stepsize: 5.9605e-10) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.267510e+03	2465	(-2.822266e+00, 1.446289e-02)	-9.204820e-02 
+ electron:	1.713242e+12	2514	(-2.773438e+00, -0.000000e+00)	4.334174e-02 
+ hole:		5.422978e+08	234	(-4.951172e+00, 1.935547e-02)	3.706337e+13 
+    1      3.65e+15   1.00e+00   4.79e+04   1.03e+15    0         1      1.00
+writing MOSFET_Vds0p5V_des_min_des.tdr (TDR format) ... done.
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.15 s
+
+Newton didn't converge, trying again with smaller step...
+
+
+Finished, because...
+Step-size less than MinStep (step-size = 2.9802e-10).
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 5.0000e-10, Maximum step in t : 0.05, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact Gate : 3V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=0.01 (Stepsize: 0.01) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      4.58e+15   1.00e+00   6.28e+04   1.13e+15    0         1      1.00
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.23 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=5.0000e-03 (Stepsize: 5.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.86e+15   1.00e+00   3.55e+04   9.37e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.5000e-03 (Stepsize: 2.5000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.87e+15   1.00e+00   3.57e+04   9.38e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.2500e-03 (Stepsize: 1.2500e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.71e+15   1.00e+00   3.34e+04   9.21e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=6.2500e-04 (Stepsize: 6.2500e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.78e+15   1.00e+00   3.43e+04   9.28e+14    0         1      1.00
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.1250e-04 (Stepsize: 3.1250e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.79e+15   1.00e+00   3.45e+04   9.29e+14    0         1      1.00
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.5625e-04 (Stepsize: 1.5625e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.74e+15   1.00e+00   3.38e+04   9.24e+14    0         1      1.00
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=7.8125e-05 (Stepsize: 7.8125e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.87e+15   1.00e+00   3.57e+04   9.38e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.9063e-05 (Stepsize: 3.9063e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.86e+15   1.00e+00   3.55e+04   9.37e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.9531e-05 (Stepsize: 1.9531e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.92e+15   1.00e+00   3.65e+04   9.44e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=9.7656e-06 (Stepsize: 9.7656e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.84e+15   1.00e+00   3.53e+04   9.35e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=4.8828e-06 (Stepsize: 4.8828e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.94e+15   1.00e+00   3.68e+04   9.46e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.4414e-06 (Stepsize: 2.4414e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.75e+15   1.00e+00   3.39e+04   9.25e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.2207e-06 (Stepsize: 1.2207e-06) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      3.10e+15   1.00e+00   3.92e+04   9.64e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=6.1035e-07 (Stepsize: 6.1035e-07) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.83e+15   1.00e+00   3.51e+04   9.34e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.0518e-07 (Stepsize: 3.0518e-07) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.75e+15   1.00e+00   3.39e+04   9.25e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.5259e-07 (Stepsize: 1.5259e-07) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.92e+15   1.00e+00   3.65e+04   9.44e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=7.6294e-08 (Stepsize: 7.6294e-08) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.78e+15   1.00e+00   3.43e+04   9.28e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.8147e-08 (Stepsize: 3.8147e-08) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      2.81e+15   1.00e+00   3.48e+04   9.31e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.80 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.9073e-08 (Stepsize: 1.9073e-08) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.03e+15   1.00e+00   3.81e+04   9.56e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=9.5367e-09 (Stepsize: 9.5367e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.94e+15   1.00e+00   3.68e+04   9.46e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.22 s
+Total time:      1.04 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=4.7684e-09 (Stepsize: 4.7684e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.38
+    1      2.78e+15   1.00e+00   3.43e+04   9.28e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.82 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.3842e-09 (Stepsize: 2.3842e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.03e+15   1.00e+00   3.81e+04   9.56e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.1921e-09 (Stepsize: 1.1921e-09) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+    1      3.01e+15   1.00e+00   3.78e+04   9.54e+14    0         1      0.99
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.21 s
+Total time:      1.03 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=5.9605e-10 (Stepsize: 5.9605e-10) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.01e+13                                                      0.37
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	3.125398e+02	2432	(-2.832031e+00, -5.107422e-03)	-4.957310e-01 
+ electron:	1.588278e+12	2514	(-2.773438e+00, -0.000000e+00)	4.334174e-02 
+ hole:		5.498137e+08	242	(-4.960938e+00, 2.914063e-02)	6.101723e+12 
+    1      2.98e+15   1.00e+00   3.74e+04   9.51e+14    0         1      1.00
+writing MOSFET_Vds0p5V_des_min_des.tdr (TDR format) ... done.
+
+Supernodal had problems (zero pivot) !
+
+Linear system cannot be solved.
+Accumulated times:
+Assembly time:        0.81 s
+Solve time:      0.22 s
+Total time:      1.15 s
+
+Newton didn't converge, trying again with smaller step...
+
+
+Finished, because...
+Step-size less than MinStep (step-size = 2.9802e-10).
+
+Writing plot 'MOSFET_Vds0p5V_des.tdr' (TDR format) ... done.
+
+Wed Dec  6 10:25:48 2023: checked in 1 sdevice license(s)
+
+******************************************************************************
+Sentaurus Device peak memory usage: 285 megabytes
+Sentaurus Device simulation times:
+  wallclock: 56.81 s
+  total cpu: 56.30 s
+Sentaurus Device simulation finished (Date: Wed Dec  6 10:25:48 2023  (CST)).
+********************************* Good Bye ! *********************************

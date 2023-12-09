@@ -1,0 +1,27 @@
+###########################################
+# Sentaurus Visual R-2020.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec 06, 2023. 15:16:15.
+# Version: 31.2.6534263 (2.6534263)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ntuEDL.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-754.2.1.el6.x86_64.
+###########################################
+
+load_file /home/B11901003/MOSFET/p1-1/MOSFET_Vds0p5V_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> MOSFET_Vds0p5V_des
+create_curve -axisX {Gate OuterVoltage} -axisY {Drain TotalCurrent} -dataset {MOSFET_Vds0p5V_des} -plot Plot_1
+#-> Curve_1
+load_file /home/B11901003/MOSFET/p1-2/MOSFET_Vds3V_des.plt
+#-> MOSFET_Vds3V_des
+create_curve -axisX {Gate OuterVoltage} -axisY {Drain TotalCurrent} -dataset {MOSFET_Vds3V_des} -plot Plot_1
+#-> Curve_2
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0

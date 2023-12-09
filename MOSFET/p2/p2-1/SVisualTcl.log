@@ -1,0 +1,41 @@
+###########################################
+# Sentaurus Visual R-2020.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec 09, 2023. 00:46:41.
+# Version: 31.2.6534263 (2.6534263)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ntuEDL.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-754.2.1.el6.x86_64.
+###########################################
+
+load_file /home/B11901003/MOSFET/p2-1/MOSFET_Vds0V_des.tdr
+create_plot -dataset MOSFET_Vds0V_des
+select_plots {Plot_MOSFET_Vds0V_des}
+#-> Plot_MOSFET_Vds0V_des
+#-> Plot_MOSFET_Vds0V_des
+#-> MOSFET_Vds0V_des
+create_cutline -plot Plot_MOSFET_Vds0V_des -type y -at 0.303125
+#-> C1(MOSFET_Vds0V_des)
+create_plot -dataset C1(MOSFET_Vds0V_des) -1d
+select_plots {Plot_C1(MOSFET_Vds0V_des)}
+#-> Plot_C1(MOSFET_Vds0V_des)
+#-> Plot_C1(MOSFET_Vds0V_des)
+set_axis_prop -plot Plot_C1(MOSFET_Vds0V_des) -axis y -type log
+#-> 0
+create_curve -axisX X -axisY DopingConcentration -dataset {C1(MOSFET_Vds0V_des)} -plot Plot_C1(MOSFET_Vds0V_des)
+#-> Curve_1
+create_cutline -plot Plot_MOSFET_Vds0V_des -type y -at 0.0005
+#-> C2(MOSFET_Vds0V_des)
+set_band_diagram {Plot_C1(MOSFET_Vds0V_des)}
+#-> 0
+remove_curves -plot Plot_C1(MOSFET_Vds0V_des) {Ec Ev hfn hfp}
+#-> Ec Ev hfn hfp
+set_legend_prop -plot Plot_C1(MOSFET_Vds0V_des) -position {0.5506 0.902637}
+#-> 0
+set_legend_prop -plot Plot_C1(MOSFET_Vds0V_des) -position {0.359348 0.678499}
+#-> 0
+exit 0
+ 
