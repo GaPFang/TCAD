@@ -1,0 +1,21 @@
+###########################################
+# Sentaurus Visual R-2020.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Dec 09, 2023. 01:01:35.
+# Version: 31.2.6534263 (2.6534263)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: ntuEDL.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-754.2.1.el6.x86_64.
+###########################################
+
+load_file /home/B11901003/MOSFET/p1-2/MOSFET_msh.tdr
+create_plot -dataset MOSFET_msh
+select_plots {Plot_MOSFET_msh}
+#-> Plot_MOSFET_msh
+#-> Plot_MOSFET_msh
+#-> MOSFET_msh
+exit 0
+ 

@@ -1,0 +1,77 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version R-2020.09                           ***
+***                      (2.6534263, x86_64, Linux)                      ***
+***                                                                      ***
+***                       Copyright (C) 2005-2020                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Aug 14 14:32:13 PDT 2020 on: tcadbld12
+Running on: ntuEDL
+Hardware type: x86_64
+OS name: Linux
+OS release: 2.6.32-754.2.1.el6.x86_64
+OS version: #1 SMP Fri Jul 13 12:50:12 UTC 2018
+Process ID: 57535
+
+Flags used:
+
+Using total concentrations for net doping
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  10457 (tree) + 2143 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (11524 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+   11476 points.
+   21830 elements.
+       6 regions.
+Max. connectivity = 8 located at (-7.5;1.86875)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    3  .       20   8  11  20  .   .   36                                
+---------------------------------------------------------------------------------
+minAngle: 1.2603  maxAngle: 90
+nVerts = 11476  nTris = 21830  nMats = 2
+max connectivity (tris per node): 8
+bmin: -10 -0.01
+bmax: 10 5
+min edgeLength: 0.000214844  [near (-4.9707 -0.000107422)]
+min volume: 1.04904e-06  max volume: 0.195703  Total volume: 100.1
+bbox  volume: 100.2
+Are all boundaries on bbox? false
+=================================================================================
+
+Smallest region: Oxide  Total volume: 0.1
+Interpolating data...done.
+done.
+Saving file /home/B11901003/MOSFET/p1-1/MOSFET_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:      1.37s       100%
+                       Rate of #Vertices:   8.4e+03
+                          Rate of #Edges:  1.67e+04
+                          Rate of #Faces:   1.6e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
