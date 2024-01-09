@@ -1,0 +1,59 @@
+
+##--------------##
+##   Structure	##
+##--------------##
+
+	(sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) "Silicon" "substrate" )
+
+##--------------##
+##  Ref Windows ##
+##--------------##
+
+	(sdedr:define-refeval-window "Ref_Contact" "Rectangle" (position 0 0 0) (position 1 0.02 0))
+	(sdedr:define-refeval-window "Ref_Bulk" "Rectangle" (position 0 0.02 0) (position 1 1 0))
+	
+##--------------##
+##    Doping	  ##
+##--------------##
+	
+	(sdedr:define-constant-profile "n1e17" "DopingConcentration" 1e17)
+	(sdedr:define-constant-profile-placement "Place_Bulk" "n1e17" "Ref_Bulk")
+	
+	(sdedr:define-constant-profile "n1e20" "DopingConcentration" 1e20)
+	(sdedr:define-constant-profile-placement "Place_Contact" "n1e20" "Ref_Contact")
+
+
+##--------------##
+##   Contacts	  ##
+##--------------##
+
+## Contact definition is to define the contact on the position of one edge, so there are many the position values on the same edge.
+
+	(sdegeo:define-contact-set "Al_contact" 4  (color:rgb 1 0 0 ) "##" )
+	(sdegeo:set-current-contact-set "Al_contact")
+	(sdegeo:define-2d-contact (list (car (find-edge-id (position 0.5 0 0)))) "Al_contact")
+	(render:rebuild)
+
+	(sdegeo:define-contact-set "Ground" 4  (color:rgb 0 1 0 ) "##" )
+	(sdegeo:set-current-contact-set "Ground")
+	(sdegeo:define-2d-contact (list (car (find-edge-id (position 0.5 1 0)))) "Ground")
+	(render:rebuild)
+
+##--------------##
+##     Mesh	    ##
+##--------------##
+
+		
+## Contact Region ##
+	
+	(sdedr:define-refinement-size "Def_Contact" 
+		0.01    0.001    0
+		0.005   0.0005   0 )
+	(sdedr:define-refinement-placement "Place_Contact" "Def_Contact" (list "window" "Ref_Contact" ))	
+
+## Bulk Region ##
+
+	(sdedr:define-refinement-size "Def_Bulk" 
+		0.2    0.1  0
+		0.2    0.1  0 )
+	(sdedr:define-refinement-placement "Place_Bulk" "Def_Bulk" (list "window" "Ref_Bulk"))
